@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --footer: #a9a9a9;
+}
+body {
+  padding: 0 4%;
+}
+/* Typography */
+footer,
+a {
+  color: var(--footer);
+  font-family: "Montserrat", sans-serif;
+}
+h3,
+h2,
+p {
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-family: "PT Serif", serif;
+}
+header {
+  margin: 15% 0 10%;
+  font-weight: 700;
+}
+h2 {
+  margin-bottom: 3%;
+  font-weight: 600;
+}
+article p {
+  font-weight: 400;
+  margin-bottom: 5%;
+}
+
+/* image */
+div.saba-image {
+  background-image: url("./assets/photo2.png");
+  background-repeat: no-repeat;
+}
+div.bill-image {
+  background-image: url("./assets/photo1.png");
+  background-repeat: no-repeat;
+}
+div.shae-image {
+  background-image: url("./assets/photo3.png");
+  background-repeat: no-repeat;
+}
+div.skylah-image {
+  background-image: url("./assets/photo4.png");
+  background-repeat: no-repeat;
+}
+div.griff-image {
+  background-image: url("./assets/photo5.png");
+  background-repeat: no-repeat;
+}
+div.stan-image {
+  background-image: url("./assets/photo6.png");
+  background-repeat: no-repeat;
+}
+div.profile {
+  width: 180px;
+  margin-bottom: 40px;
+}
+div.image {
+  background-size: contain;
+  height: 250px;
+  width: 100%;
+  /* height: ; */
+}
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 15px;
+  /* gap: 10px; */
+}
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'PT Serif', serif; */
