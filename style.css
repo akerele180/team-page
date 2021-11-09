@@ -15,13 +15,22 @@ a {
   color: var(--footer);
   font-family: "Montserrat", sans-serif;
 }
+footer {
+  margin-top: 20px;
+  text-align: center;
+}
 h3,
 h2,
 p {
   font-family: "Poppins", sans-serif;
 }
+h3 {
+  padding-top: 15px;
+  font-size: 0.9rem;
+}
 h1 {
   font-family: "PT Serif", serif;
+  font-size: 36px;
 }
 header {
   margin: 15% 0 10%;
@@ -30,52 +39,122 @@ header {
 h2 {
   margin-bottom: 3%;
   font-weight: 600;
+  font-size: 18px;
 }
 article p {
   font-weight: 400;
-  margin-bottom: 5%;
+  margin-bottom: 7%;
 }
 
 /* image */
-div.saba-image {
-  background-image: url("./assets/photo2.png");
-  background-repeat: no-repeat;
-}
 div.bill-image {
   background-image: url("./assets/photo1.png");
   background-repeat: no-repeat;
 }
+div.bill-image::after {
+  content: "akerele";
+  font-family: "PT Serif", serif;
+  text-transform: uppercase;
+  transform: rotate(90deg);
+  transform: rotate(90deg) !important;
+  float: right;
+  position: absolute;
+  top: 15%;
+  left: 86%;
+}
+
+div.saba-image {
+  background-image: url("./assets/photo2.png");
+  background-repeat: no-repeat;
+}
+div.saba-image::after {
+  content: "akerele";
+  font-family: "PT Serif", serif;
+  text-transform: uppercase;
+  transform: rotate(90deg) !important;
+  float: right;
+  position: absolute;
+  top: 15%;
+  left: 86%;
+}
+
 div.shae-image {
   background-image: url("./assets/photo3.png");
   background-repeat: no-repeat;
 }
+div.shae-image::after {
+  content: "akerele";
+  font-family: "PT Serif", serif;
+  text-transform: uppercase;
+  transform: rotate(90deg);
+  float: right;
+  position: absolute;
+  top: 15%;
+  left: 86%;
+}
+
 div.skylah-image {
   background-image: url("./assets/photo4.png");
   background-repeat: no-repeat;
 }
+div.skylah-image::after {
+  content: "akerele";
+  font-family: "PT Serif", serif;
+  text-transform: uppercase;
+  transform: rotate(90deg) !important;
+  float: right;
+  position: absolute;
+  top: 15%;
+  left: 86%;
+}
+
 div.griff-image {
   background-image: url("./assets/photo5.png");
   background-repeat: no-repeat;
 }
+div.griff-image::after {
+  content: "akerele";
+  font-family: "PT Serif", serif;
+  text-transform: uppercase;
+  transform: rotate(90deg) !important;
+  float: right;
+  position: absolute;
+  top: 15%;
+  left: 86%;
+}
+
 div.stan-image {
   background-image: url("./assets/photo6.png");
   background-repeat: no-repeat;
 }
+div.stan-image::after {
+  content: "akerele";
+  font-family: "PT Serif", serif;
+  text-transform: uppercase;
+  transform: rotate(90deg) !important;
+  float: right;
+  position: absolute;
+  top: 15%;
+  left: 86%;
+}
+
 div.profile {
-  width: 180px;
-  margin-bottom: 40px;
+  max-width: 252px;
+  margin-bottom: 50px;
+  position: relative;
+}
+div.profile:nth-child(even) {
+  transform: translateY(50px);
 }
 div.image {
-  background-size: contain;
-  height: 250px;
-  width: 100%;
-  /* height: ; */
+  background-size: 100%;
+  min-height: 287px;
+  background-position: bottom;
 }
 section {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 15px;
-  /* gap: 10px; */
+  column-gap: 20px;
 }
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Poppins', sans-serif;
